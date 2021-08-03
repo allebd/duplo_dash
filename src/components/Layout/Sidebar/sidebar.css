@@ -1,0 +1,16 @@
+/*
+* sidebar.css 
+* 
+* Duplo Dash ©️ 2021
+* https://github.com/allebd/duplo_dash
+*
+* CSS Designed by allebd.
+*/
+
+.sidebar-container {
+  flex: 1;
+  padding: 1em;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #ffffff;
+}
