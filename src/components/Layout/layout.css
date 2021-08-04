@@ -1,0 +1,64 @@
+/*
+* layout.css 
+* 
+* Duplo Dash ©️ 2021
+* https://github.com/allebd/duplo_dash
+*
+* CSS Designed by allebd.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,500,700&display=swap');
+
+/*border box allows us to add padding and border to our elements without increasing their size */
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Globals */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 12.5px/1.5 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: #202121;
+  background: #f4f7f6;
+  min-height: calc(100vh);
+}
+
+a {
+  text-decoration: none;
+  color: #202121;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.layout-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 3;
+}
