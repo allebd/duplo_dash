@@ -1,0 +1,268 @@
+/*
+* home.css 
+* 
+* Duplo Dash ©️ 2021
+* https://github.com/allebd/duplo_dash
+*
+* CSS Designed by allebd.
+*/
+
+.home-container {
+  flex: 4;
+  color: #303b4b;
+}
+
+.home-header {
+  padding: 2em;
+  padding-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.home-banner {
+  padding: 5em 2em;
+  background: #1e293b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-profile {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.welcome-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.my-profile-info .welcome-big p {
+  font-size: 2.2em;
+  color: #ffffff;
+}
+
+.welcome-small {
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+  gap: 5px;
+  color: #728094;
+}
+
+.welcome-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.welcome-buttons button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: 0;
+  background: #728094;
+}
+
+.welcome-buttons button.settings {
+  background: #4f46e5;
+}
+
+.welcome-buttons button span {
+  margin-right: 5px;
+}
+
+.home-tabs {
+  padding: 0 2em;
+  background: #f1f5f9;
+}
+
+.home-tabs ul {
+  display: inline-flex;
+  gap: 30px;
+}
+
+.home-tabs ul li {
+  padding: 5px 13px;
+}
+
+.home-tabs ul li:hover,
+.git-sub ul li:hover {
+  background: #dde2e7;
+  border-radius: 20px;
+  color: #1e293b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-summary {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-box {
+  background: #ffffff;
+  padding: 15px;
+  width: 23%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+
+.card-major {
+  display: grid;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-major p {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+.card-minor {
+  text-align: center;
+}
+
+.card-box.summary .card-major {
+  color: #3c82f6;
+}
+
+.card-box.overdue .card-major {
+  color: #ef4444;
+}
+
+.card-box.issues .card-major {
+  color: #f59e0b;
+}
+
+.card-box.features .card-major {
+  color: #22c55e;
+}
+
+.git-summary {
+  padding: 2em;
+}
+
+.card-box-bigger {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.git-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.git-sub ul {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.git-sub ul li {
+  padding: 2px 12px;
+}
+
+.git-details {
+  display: flex;
+  gap: 20px;
+}
+
+.git-left {
+  font-size: 300px;
+  flex: 1;
+}
+
+.git-right {
+  flex: 1;
+}
+
+.git-right-box1 {
+  display: flex;
+  gap: 20px;
+}
+
+.git-box-large {
+  text-align: center;
+  align-items: center;
+  padding: 10px 100px;
+  border-radius: 15px;
+}
+
+.git-box-large p {
+  font-size: 50px;
+  margin: 0px;
+}
+
+.git-box-large span {
+  margin-top: -15px;
+}
+
+.git-box-large.issue {
+  background: #eef2ff;
+}
+
+.git-box-large.issue p,
+.git-box-large.issue span {
+  color: #3730a3;
+}
+
+.git-box-large.closed {
+  background: #f0fdf4;
+}
+
+.git-box-large.closed p,
+.git-box-large.closed span {
+  color: #166534;
+}
+
+.git-right-box2 {
+  display: flex;
+  gap: 5px;
+}
+
+.git-box-small {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 5px 50px;
+  border-radius: 15px;
+}
+
+.git-box-small p {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.git-box-small span {
+  margin-top: -15px;
+}
+
+.git-box-small {
+  background: #f1f5f9;
+}
+
+.git-box-large p,
+.git-box-large span {
+  color: #64748b;
+}

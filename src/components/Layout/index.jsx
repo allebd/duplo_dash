@@ -1,12 +1,13 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import Home from '../Home';
 import './layout.css';
 
-export default function Layout() {
+export default function Layout({ main }) {
   return (
     <div className="layout-container">
       <Sidebar />
-      <div className="main-content">Test</div>
+      <Home />
     </div>
   );
 }

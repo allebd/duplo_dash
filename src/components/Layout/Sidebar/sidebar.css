@@ -9,8 +9,73 @@
 
 .sidebar-container {
   flex: 1;
-  padding: 1em;
+  padding: 2em;
   min-height: 100vh;
   background: #0f172a;
   color: #ffffff;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.header-subicons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sidebar-profile {
+  padding: 10px 0 2px 0;
+  font-size: 80px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.profile-info {
+  font-size: 14px;
+  display: grid;
+  justify-items: center;
+}
+
+.profile-info p {
+  margin: 1px;
+}
+
+.profile-info p.profile-email {
+  color: #8695aa;
+}
+
+.menu-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #7c87ef;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.menu-desc {
+  color: #8695aa;
+  margin-top: -10px;
+  padding: 0;
+}
+
+.menu-items li {
+  padding: 10px;
+  color: #8695aa;
+}
+
+.menu-items li:hover {
+  color: #ffffff;
+  background: #8695aa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-items span {
+  padding-right: 10px;
+  font-size: 13px;
 }
